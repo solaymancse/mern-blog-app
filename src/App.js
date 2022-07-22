@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import { Posts } from "./components/Posts/Posts";
-import { AddPost } from "./components/Posts/Post/AddPost";
+
 import { EditPost } from "./components/Posts/Post/EditPost";
 import { PageNotFound } from "./components/PageNotFound";
 import { Navbar } from "./components/Header/Navbar";
 import { SinglePostDetails } from './components/Posts/Post/SinglePostDetails';
+import { AddPost } from './components/Posts/Post/AddPost';
 
 function App() {
   return (
