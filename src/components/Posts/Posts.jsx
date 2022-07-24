@@ -9,7 +9,9 @@ export const Posts = () => {
 
   const GetAllPostRequest = () =>
     GetAllPosts()
-      .then(({data}) => setPostData(data))
+      .then(({data}) => {
+        console.log(data);
+        setPostData(data)})
       .catch((err) => console.log(err));
 
   useEffect(() => {
